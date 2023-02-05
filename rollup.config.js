@@ -46,7 +46,6 @@ const productionConfig = {
   output: {
     file: "./public/index.js",
     format: "iife",
-    sourcemap: true,
   },
   plugins: [
     image(),
