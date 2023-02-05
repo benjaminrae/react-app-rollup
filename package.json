@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "cross-env NODE_ENV=development rollup -c -w",
+    "start": "cross-env NODE_ENV=development rollup -c rollup.config.local.js -w",
     "build": "cross-env NODE_ENV=production rollup -c"
   },
   "keywords": [],
