@@ -4,7 +4,7 @@ import nodeResolve from "@rollup/plugin-node-resolve";
 import replace from "@rollup/plugin-replace";
 import terser from "@rollup/plugin-terser";
 import typescript from "@rollup/plugin-typescript";
-import postcss from "postcss";
+import postcss from "rollup-plugin-postcss";
 import livereload from "rollup-plugin-livereload";
 import serve from "rollup-plugin-serve";
 
