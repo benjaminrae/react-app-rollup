@@ -26,6 +26,4 @@ const productionConfig = {
   ],
 };
 
-export default process.env.NODE_ENV === "production"
-  ? productionConfig
-  : localConfig;
+export default productionConfig;
