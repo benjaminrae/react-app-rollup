@@ -1,0 +1,14 @@
+.DS_Store
+node_modules
+
+dist
+
+public/*
+!public/index.html
+!public/favicon.ico
+!public/robots.txt
+!public/manifest.json
+
+.env
+.env.local
+.env.production 
